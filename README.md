@@ -2,6 +2,10 @@
 
  Teste de conhecimento em php oo
 
+..* PHP5
+..* Bootstrap 3
+..* PDO 
+
 ## Faltas
 
 1. Pesquisar por data
