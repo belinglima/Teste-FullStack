@@ -11,17 +11,9 @@ require_once 'CrudFamilia.php';
 class Familias extends CrudFamilia {
     
     protected $tabela = 'tbl_familia';
-    protected $tabela_guerra = 'tbl_guerra';
       
     public function findAll() {
         $sql = "SELECT * FROM $this->tabela";
-        $stmt = DB::prepare($sql);
-        $stmt->execute();
-        return $stmt->fetchAll();
-    } 
-
-    public function guerra() {
-        $sql = "SELECT count(*) FROM $this->tabela_guerra WHERE vencedora=':guerra'";
         $stmt = DB::prepare($sql);
         $stmt->execute();
         return $stmt->fetchAll();

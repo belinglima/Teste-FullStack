@@ -142,6 +142,9 @@
 </div>
 <!-- fim Modal -->
 
+
+
+
             <!-- Inicio da tabela -->
             <h4>Famílias</h4>
             <table class="table table-striped table-bordered table-hover">
@@ -157,7 +160,7 @@
                 </thead>
                 <tbody>
         <?php foreach ($familia->findAll() as $key => $value) { ?>
-                    <tr>
+                   <tr>
                         <td> <?php echo $value->nome;?> </td>
                         <td> <?php echo $value->membros;?> </td>
                         <td> 0 </td>

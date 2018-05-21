@@ -264,27 +264,27 @@ $data = isset($inicio);
                         <div class="modal-body">
                             <form class="form-inline" method="post">
                                 <div class="input-group">
-                                    <span class="input-group-addon glyphicon glyphicon-user"></span>
+                                        <label>Desafiadora</label>
                                     <input id="desafiadora" name="desafiadora" type="text" class="form-control" required value="<?php echo ($value->desafiadora);?>" >
                                 </div>
 
                                 <div class="input-group">
-                                    <span class="input-group-addon glyphicon glyphicon-user"></span>
+                                <label>Desafiada</label>
                                     <input id="desafiada" name="desafiada" type="text" class="form-control" required value="<?php echo ($value->desafiada);?>" >
                                 </div>
 
                                 <div class="input-group">
-                                    <span class="input-group-addon glyphicon glyphicon-user"></span>
+                                <label>Inicio</label>
                                     <input id="inicio" name="inicio" type="date" class="form-control" required value="<?php echo ($value->inicio);?>" >
                                 </div>
 
                                 <div class="input-group">
-                                    <span class="input-group-addon glyphicon glyphicon-user"></span>
+                                <label>Fim</label>
                                     <input id="fim" name="fim" type="date" class="form-control" required value="<?php echo ($value->fim);?>" >
                                 </div>
 
                                 <div class="input-group">
-                                    <span class="input-group-addon glyphicon glyphicon-user"></span>
+                                <label>Vencedora</label>
                                     <input id="vencedora" name="vencedora" type="text" class="form-control" required value="<?php echo ($value->vencedora);?>" >
                                 </div>
 

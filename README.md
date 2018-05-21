@@ -1,13 +1,18 @@
 # Teste-FullStack
-Teste
 
-## Não tive tempo de terminar o que pediram 
+ Teste de conhecimento em php oo
 
-Peço que avaliem meus conhecimentos pelo que ja fiz 
+## Faltas
 
-# faltaram 
+1. Pesquisar por data
 
-Sistema de pesquisa e listar os valores do banco.
+2. Trazer a contagem de vitorias, derrotas e guerras
+
+3. Peço que avaliem meus conhecimentos pelo que ja fiz 
+
+
+### Se fosse permitido faria em laravel ou codeiginiter.
+
 
 ## Abraço. Salomão Lima
 
@@ -15,4 +20,5 @@ Proximo Full Stack de vocês
 
 :)
 
-Hoje na madrugada vou terminar.
+Aguardo resposta.
+

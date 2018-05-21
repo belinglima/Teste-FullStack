@@ -11,15 +11,8 @@ require_once 'CrudGuerra.php';
 class Guerras extends CrudGuerra {
     
     protected $tabela = 'tbl_guerra';
+    protected $tabela_familia = 'tbl_familia';
 
-    public function findUnit($id) {
-        $sql = "SELECT * FROM $this->tabela WHERE id = :id";
-        $stm = DB::prepare($sql);
-        $stm->bindParam(':id', $id, PDO::PARAM_INT);
-        $stm->execute();
-        return $stm->fetch();
-    }
-      
     public function findAll() {
         $sql = "SELECT * FROM $this->tabela";
         $stmt = DB::prepare($sql);
